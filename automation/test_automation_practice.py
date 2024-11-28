@@ -10,6 +10,7 @@ def test_automation_practice():
         page = browser.new_page()
         page.goto("https://automationexercise.com/login")
 
+        #Faker
         email = faker.email()
         nome = faker.name()
         sobrenome = faker.last_name()               
